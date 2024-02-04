@@ -1,0 +1,43 @@
+.button__default {
+  @apply flex items-center justify-center rounded text-l-base;
+}
+
+.button--purple__big {
+  @apply button__default h-[54px] bg-primary text-white;
+}
+
+.button--white__big {
+  @apply button__default h-[54px] border border-primary text-primary;
+}
+
+.button--gray__big {
+  @apply border border-gray-100 bg-gray-50 text-l-base text-black;
+}
+
+.button--purple__small {
+  @apply button__default h-[44px] bg-primary text-white;
+}
+
+.button--white__small {
+  @apply button__default h-[44px] border border-primary text-primary;
+}
+
+.button--footer {
+  @apply flex h-[40px] w-[140px] items-center justify-center border border-gray-200 text-p-base text-content;
+}
+
+.button__radio--no {
+  @apply h-6 w-6 bg-input__button bg-radio--no;
+}
+
+.button__radio--yes {
+  @apply h-6 w-6 bg-input__button bg-radio--yes;
+}
+
+.button__check--no {
+  @apply h-6 w-6 bg-input__button bg-check--no;
+}
+
+.button__check--yes {
+  @apply h-6 w-6 bg-input__button bg-check--yes;
+}
